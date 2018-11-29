@@ -1,0 +1,157 @@
+@import url(grid.css);
+@import url(components.css);
+@import url(varibale.css);
+
+
+/* Site-Title  and  suptitle and text*/
+.title{
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  margin-top: 15px;
+}
+
+.suptitle{
+  color: var(--gray-med);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.block-title{
+  margin-bottom: 20px;
+}
+
+.block-title:after {
+  height: 2px;
+  display: block;
+  content: '';
+  width: 8%;
+  margin: 5px 3px 0;
+  background-color: var(--primary);
+}
+
+.mobile-visible{
+  display: none;
+  visibility: hidden;
+}
+/* Header */
+.header{
+  position: fixed;
+  width: 22%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  overflow: auto;
+  z-index: 11;
+  text-align: center;
+  padding: 10px 0 0;
+}
+
+.header .header-content {
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo{
+  position: relative;
+  z-index: 1;
+  margin: 20px 20px 10px;
+  text-align: center;
+}
+
+.logo img{
+  height: auto;
+  max-height: 80px;
+  width: auto;
+  max-width: 80px;
+}
+
+
+/* main */
+.site-main{
+  position: relative;
+  height: 100%;
+}
+
+.sub-pages{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  padding-left: 10px;
+}
+
+/*
+----Section AboutMe ----
+*/
+
+/* summery-info */
+.summery-text-block{
+  position: relative;
+  padding: 70px 15%;
+}
+
+.summery-img-block{
+  background-image: url("../images/heba-elsafty.jpg");
+  height: 100%;
+  min-height: 300px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* What I Do */
+.custom-page-content{
+  position: relative;
+  height: auto;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: transparent;
+  padding: 50px 70px 70px;
+  background-color: var(--white);
+  -webkit-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -ms-transform: none;
+}
+
+/*
+---- section portfolio ----
+*/
+.project-name , .project-link{
+  position: absolute;
+  padding: 3px 10px;
+  background-color: var(--white);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.project-name{
+  top: 10px;
+  left: 10px;
+}
+
+.project-link{
+  right: 10px;
+  bottom: 10px;
+  padding: 3px 10px;
+}
+
+
+.text:hover .project-name , .text:hover .project-link{
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);;
+}

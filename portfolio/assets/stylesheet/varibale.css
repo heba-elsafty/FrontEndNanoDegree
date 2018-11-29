@@ -1,0 +1,80 @@
+/* variable color and style heading & Text */
+
+/*
+---- Theme color ----
+*/
+:root {
+  --primary: #e91e63;
+  --secondary: #d96c9d;
+  --success: #53ce2e ;
+  --danger:  #dc3545;
+  --warning: #fccc11 ;
+  --info: #0551a0;
+  --white: #fff;
+  --dark: #333 ;
+  --light: #fcfcfc ;
+  --gray-light : #f5f5f5;
+  --gray-med: #888;
+}
+
+/*
+---- Fonts ----
+*/
+:root {
+  --font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*
+---- HTML,Body ----
+*/
+*{box-sizing: border-box;}
+
+body{
+  font-family: var(--font-family);
+  padding: 0;
+  margin: 0;
+  background-color: var(--gray-light);
+  font-size: 16px;
+  color: var(--dark);
+  overflow-x: hidden;
+}
+
+/*
+---- Heading & pragraph & figure & ul ----
+*/
+figure,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
+  padding: 0;
+}
+
+/*
+---- Anchor ----
+*/
+a{
+  text-decoration: none;
+  color: var(--dark);
+}
+a:hover {
+  color: var(--primary)
+}
+
+/*
+---- Images----
+*/
+img{
+  object-fit: cover;
+  vertical-align: bottom;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
