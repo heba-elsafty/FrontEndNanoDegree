@@ -40,7 +40,7 @@
     border-bottom: 1px solid var(--gray-light);
     left: 0;
     right: 0;
-    height: 70px;
+    height: 50px;
     z-index: 1002;
     top: 0;
   }
@@ -56,7 +56,7 @@
   }
 
   .mobile-header-image img{
-    max-height: 50px;
+    max-height: 30px;
     margin: 8px 8px 8px 0;
     vertical-align: middle;
   }
@@ -67,25 +67,31 @@
 
   .menu-toggle {
     float: right;
-    margin: 15px 20px;
+    margin: 10px 20px;
   }
 
   .menu-toggle i{
-    font-size: 40px;
+    font-size: 30px;
   }
 
-.mobile-menu-hide.open{
-  width:50%;;
-  left: 0;
-transform:translate(0,0);
-  overflow: visible;
-  visibility: visible;
-  top: 6%;
-}
+  .mobile-menu-hide.open{
+    width:50%;;
+    left: 0;
+    transform:translate(0,0);
+    overflow: visible;
+    visibility: visible;
+    top: 6%;
+    padding-top: 20px;
+  }
+
+  /* Main */
+  .sub-pages{
+    padding-left: 0;
+  }
 
   .site-main{
     position: absolute;
-    top: 70px;
+    top: 50px;
     bottom: 0;
     width: 100%;
     height: auto;
