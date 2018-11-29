@@ -82,6 +82,7 @@
     visibility: visible;
     top: 6%;
     padding-top: 20px;
+    height: 100%;
   }
 
   /* Main */
@@ -98,6 +99,10 @@
     margin: 0;
     border: 0;
     overflow-x: hidden;
+  }
+
+  .custom-page-content{
+    padding: 10px 25px;
   }
 }
 
